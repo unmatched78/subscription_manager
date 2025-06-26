@@ -1,0 +1,20 @@
+{
+  "name": "subscription-manager",
+  "version": "0.1.0",
+  "description": "Framework-agnostic subscription & trial management",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "dependencies": {
+    "knex": "^2.5.0",
+    "pg": "^8.9.0"      // for PostgreSQL support
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "chai": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
