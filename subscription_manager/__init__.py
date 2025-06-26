@@ -1,9 +1,5 @@
-
----
-
 ### subscription_manager/__init__.py
 
-```python
 from .models import Client, Plan, Subscription
 from .exceptions import *
 from .storage import StorageBackend
